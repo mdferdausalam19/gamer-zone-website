@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 /* Nav Section */
 .nav-container {
@@ -120,4 +121,78 @@ body {
     background: #4EC5F7;
 }
 
-
+/* Footer Section */
+footer {
+    text-align: center;
+    background: #0B0223;
+    padding: 130px 500px 130px 500px;
+}
+.footer-container {
+    width: auto;
+    margin: 0 auto;
+}
+.footer-logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo {
+    margin-right: 20px;
+}
+.footer-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-item-1 a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-item-1 {
+    margin-top: 40px;
+}
+.footer-item-content-1 {
+    margin-right: 40px;
+}
+.footer-item-2 a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   
+}
+.footer-text {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+.footer-icon {
+    margin-top: 40px;
+}
+.footer-icon-dis {
+    margin-right: 20px;
+}
+.footer-item-2 {
+    margin-top: 40px;
+}
+.footer-item-content-2 {
+    margin-right: 40px;
+}
+.footer-text {
+    margin-top: 25px;
+}
