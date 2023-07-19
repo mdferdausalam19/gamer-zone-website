@@ -21,6 +21,7 @@ body {
 .nav-logo {
     /* width: 86.041px;
     height: 40px; */
+    margin-left: 50px;
     margin-right: 20px;
 }
 .nav-title {
@@ -36,6 +37,9 @@ body {
     color: #3C354F;
     font-size: 18px;
     font-weight: 500;
+}
+.nav-icon-container {
+    margin-right: 30px;
 }
 .nav-container a {
     text-decoration: none;
@@ -85,10 +89,7 @@ body {
     font-size: 95px;
     font-weight: 800;
     text-transform: uppercase;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    color:#8758F1;
 }
 .banner-line {
     color: #534C64;
@@ -122,6 +123,57 @@ body {
 }
 
 /* Main Section */
+
+/* Online Game Section */
+.online-game-title {
+    text-align: center;
+}
+.online-game-description {
+    text-align: center;
+}
+.online-game-image-container {
+    display: flex;
+    margin-top: 48px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.online-game-title {
+    margin-top: 120px;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.online-game-description {
+    margin-top: -36px;
+    margin-bottom: 45px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.image-item-1 {
+    margin-right: 20px;
+}
+.image-item-2 {
+    margin-right: 20px;
+}
+.image-item-3 {
+    margin-right: 20px;
+}
+.online-game-caption {
+    margin-top: 25px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+  
+.image-item img {
+    
+    margin-bottom: 10px;
+}
+  
+  
 
 /* Top Game Section */
 .button-container {
